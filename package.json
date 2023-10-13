@@ -1,0 +1,61 @@
+{
+  "name": "react-native-modal-time-picker",
+  "version": "0.0.1",
+  "description": "modal wheel time picker ",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "react-native-reanimated": "^3.5.4",
+    "react-native-gesture-handler": "^2.13.1",
+    "@react-native-masked-view/masked-view": "^0.2.9",
+    "typescript": "4.8.4"
+  },
+  "react-native": "src\\index.ts",
+  "source": "src\\index.tsx",
+  "module": "lib\\commonjs\\index.js",
+  "types": "src\\index.d.ts",
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "files": [
+    "src",
+    "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahanzaib5244/react-native-modal-time-picker.git"
+  },
+  "author": "Muhammad Jahanzaib <jahanzaib5244@gmail.com> (https://github.com/jahanzaib5244)",
+  "bugs": {
+    "url": "https://github.com/jahanzaib5244/react-native-modal-time-picker/issues"
+  },
+  "homepage": "https://github.com/jahanzaib5244/react-native-modal-time-picker#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "react-native-dark-theme",
+    "telegram-dark-theme",
+    "animated-dark-theme",
+    "custom-dark-theme"
+  ]
+}
