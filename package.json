@@ -1,6 +1,6 @@
 {
   "name": "react-native-modal-time-picker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "modal wheel time picker ",
   "main": "src/index.ts",
   "license": "UNLICENSED",
@@ -53,9 +53,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
-    "react-native-dark-theme",
-    "telegram-dark-theme",
-    "animated-dark-theme",
-    "custom-dark-theme"
+    "react-native-time-picker",
+    "ios-time-picker",
+    "android-time-picker",
+    "react-native-model-time-picker",
+    "time-picker-react-native"
   ]
 }
